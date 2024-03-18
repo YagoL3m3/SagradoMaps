@@ -1,6 +1,6 @@
 # sagradomaps
 
-A new Flutter project.
+Projeto da matéria desenvolvimento de software
 
 ## Getting Started
 
