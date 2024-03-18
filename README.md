@@ -1,5 +1,5 @@
 # SagradoMaps
-Aplicativo de geolocalização da Unisagrado que tem como objetivo facilitar a locomoção dos alunos dentro do campus universitário, proporcionando uma experiência de navegação eficiente e intuitiva. Criarmos um sistema de GPS personalizado, exclusivo para os locais dentro da nossa instituição de ensino, que permitirá aos alunos encontrar o caminho mais rápido e conveniente até seus destinos dentro do campus.
+Aplicativo de geolocalização da Universidade Sagrado Coração que tem como objetivo facilitar a locomoção dos alunos dentro do campus universitário, proporcionando uma experiência de navegação eficiente e intuitiva. Criarmos um sistema de GPS personalizado, exclusivo para os locais dentro da nossa instituição de ensino, que permitirá aos alunos encontrar o caminho mais rápido e conveniente até seus destinos dentro do campus.
 
 # Autores 
 
