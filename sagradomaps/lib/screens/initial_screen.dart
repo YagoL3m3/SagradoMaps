@@ -17,7 +17,7 @@ class _InitialScreenState extends State<InitialScreen> {
           title: const Text('SagradoMaps',
               style: TextStyle(
                 fontFamily: 'Inter',
-                fontSize: 28,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               )),
@@ -53,7 +53,7 @@ class _InitialScreenState extends State<InitialScreen> {
                 },
                 child: const Text('Simulação Bloco C!'),
               ),
-            )
+            ),
           ]),
         ));
   }

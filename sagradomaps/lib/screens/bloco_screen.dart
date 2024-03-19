@@ -17,7 +17,7 @@ class _BlocoScreenState extends State<BlocoScreen> {
         title: const Text('SagradoMaps',
             style: TextStyle(
               fontFamily: 'Inter',
-              fontSize: 28,
+              fontSize: 22,
               fontWeight: FontWeight.bold,
               color: Colors.white,
             )),

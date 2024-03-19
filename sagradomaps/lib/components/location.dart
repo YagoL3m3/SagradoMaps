@@ -32,8 +32,7 @@ class _LocationState extends State<Location> {
               Padding(
                 padding: const EdgeInsets.only(top: 3.0),
                 child: SizedBox(
-                  height: 32,
-                  width: 150,
+                  height: 36,
                   child: Text(
                     widget.nomeCurso,
                     style: const TextStyle(
