@@ -19,7 +19,7 @@ class _BlockState extends State<Block> {
           color: Colors.red,
         ),
         height: 80,
-        width: 179,
+        width: MediaQuery.of(context).size.width * 0.5,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
