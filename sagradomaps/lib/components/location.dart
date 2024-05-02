@@ -37,7 +37,7 @@ class _LocationState extends State<Location> {
                     style: const TextStyle(
                       fontSize: 24,
                       fontFamily: 'Inter',
-                      color: Color(0xFFEAD196),
+                      color: Colors.white,
                     ),
                   ),
                 ),

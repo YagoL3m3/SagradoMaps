@@ -23,11 +23,11 @@ class _InitialScreenState extends State<InitialScreen> {
               fontWeight: FontWeight.bold,
               color: Colors.white,
             )),
-        backgroundColor: const Color(0xFFBF3131),
+        backgroundColor: const Color(0xFFF44E3F),
       ),
       drawer: Drawer(
         child: Container(
-          color: Colors.red,
+          color: const Color(0xFFBF3131),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -69,7 +69,7 @@ class _InitialScreenState extends State<InitialScreen> {
       body: Container(
         height: MediaQuery.of(context).size.height * 1,
         width: double.infinity,
-        color: Colors.red,
+        color: const Color(0xFFBF3131),
         child: Column(
           children: [
             Stack(
@@ -80,67 +80,67 @@ class _InitialScreenState extends State<InitialScreen> {
                     children: [
                       ClipRRect(
                         child: Image.asset(
-                          height: MediaQuery.of(context).size.height * 0.897,
+                          height: MediaQuery.of(context).size.height * 0.88,
                           'assets/images/mapa.jpeg',
                           fit: BoxFit.cover,
                         ),
                       ),
-                      const Positioned(
-                          top: 290,
-                          left: 280,
-                          child: ListaBloco(1, 'A', 'Bloco A')),
-                      const Positioned(
-                          top: 360,
-                          left: 300,
-                          child: ListaBloco(2, 'B', 'Bloco B')),
-                      const Positioned(
-                          top: 240,
-                          left: 350,
-                          child: ListaBloco(3, 'C', 'Bloco C')),
-                      const Positioned(
-                          top: 350,
-                          left: 450,
-                          child: ListaBloco(4, 'D', 'Bloco D')),
-                      const Positioned(
-                          top: 290,
-                          left: 430,
-                          child: ListaBloco(5, 'E', 'Bloco E')),
-                      const Positioned(
-                          top: 340,
-                          left: 600,
-                          child: ListaBloco(6, 'F', 'Bloco F')),
-                      const Positioned(
-                          top: 285,
-                          left: 580,
-                          child: ListaBloco(7, 'G', 'Bloco G')),
-                      const Positioned(
-                          top: 240,
-                          left: 930,
-                          child: ListaBloco(8, 'J', 'Bloco J')),
-                      const Positioned(
-                          top: 240,
-                          left: 1020,
-                          child: ListaBloco(9, 'K', 'Bloco K')),
-                      const Positioned(
-                          top: 290,
-                          left: 1250,
-                          child: ListaBloco(10, 'O', 'Bloco O')),
-                      const Positioned(
-                          top: 290,
-                          left: 1330,
-                          child: ListaBloco(11, 'L', 'Bloco L')),
-                      const Positioned(
-                          top: 550,
-                          left: 905,
-                          child: ListaBloco(12, 'H', 'Bloco H')),
-                      const Positioned(
-                          top: 340,
-                          left: 385,
-                          child: ListaBloco(20, '', 'Lanchonete')),
-                      const Positioned(
-                          top: 195,
-                          left: 1050,
-                          child: ListaBloco(21, '2', 'Manutenção\n Predial')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.75,
+                          left: MediaQuery.of(context).size.width * 0.7,
+                          child: const ListaBloco(1, 'A', 'Bloco A')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.9,
+                          left: MediaQuery.of(context).size.width * 0.75,
+                          child: const ListaBloco(2, 'B', 'Bloco B')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.6,
+                          left: MediaQuery.of(context).size.width * 0.95,
+                          child: const ListaBloco(3, 'C', 'Bloco C')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.9,
+                          left: MediaQuery.of(context).size.width * 1.2,
+                          child: const ListaBloco(4, 'D', 'Bloco D')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.74,
+                          left: MediaQuery.of(context).size.width * 1.105,
+                          child: const ListaBloco(5, 'E', 'Bloco E')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.87,
+                          left: MediaQuery.of(context).size.width * 1.6,
+                          child: const ListaBloco(6, 'F', 'Bloco F')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.73,
+                          left: MediaQuery.of(context).size.width * 1.52,
+                          child: const ListaBloco(7, 'G', 'Bloco G')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.62,
+                          left: MediaQuery.of(context).size.width * 2.42,
+                          child: const ListaBloco(8, 'J', 'Bloco J')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.61,
+                          left: MediaQuery.of(context).size.width * 2.65,
+                          child: const ListaBloco(9, 'K', 'Bloco K')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.76,
+                          left: MediaQuery.of(context).size.width * 3.25,
+                          child: const ListaBloco(10, 'O', 'Bloco O')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.74,
+                          left: MediaQuery.of(context).size.width * 3.46,
+                          child: const ListaBloco(11, 'L', 'Bloco L')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 1.44,
+                          left: MediaQuery.of(context).size.width * 2.37,
+                          child: const ListaBloco(12, 'H', 'Bloco H')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.89,
+                          left: MediaQuery.of(context).size.width * 1,
+                          child: const ListaBloco(20, '', 'Lanchonete')),
+                      Positioned(
+                          top: MediaQuery.of(context).size.width * 0.5,
+                          left: MediaQuery.of(context).size.width * 2.75,
+                          child: const ListaBloco(21, '2', 'Manutenção\n Predial')),
                     ],
                   ),
                 ),

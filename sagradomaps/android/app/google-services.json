@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "324020420073",
+    "project_id": "sagradomaps",
+    "storage_bucket": "sagradomaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324020420073:android:810df1bb254f35b40ddf78",
+        "android_client_info": {
+          "package_name": "com.unisagrado.sagradomaps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmFdDGoQTPLlcbXs8oXQtUQYbKSzV2XkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

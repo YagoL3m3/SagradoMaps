@@ -2,7 +2,7 @@ name: sagradomaps
 description: "Projeto da matéria desenvolvimento de software"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'com.unisagrado' # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -38,6 +38,11 @@ dependencies:
   flutter_launcher_icons: ^0.13.1
   provider: ^5.0.0
   geolocator: ^11.0.0
+  flutter_map: ^0.13.0
+  sqflite: ^2.3.3
+  firebase_core: ^2.30.1
+  cloud_firestore: ^4.17.2
+  uuid: ^4.4.0
 
 
 dev_dependencies:
@@ -121,7 +126,7 @@ flutter_native_splash:
   # of your splash screen to a solid color.  Use background_image to set the background of your
   # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
   # size of the app. Only one parameter can be used, color and background_image cannot both be set.
-  color: "#BF3131"
+  
   #background_image: "assets/background.png"
 
   # Optional parameters are listed below.  To enable a parameter, uncomment the line by removing
@@ -161,7 +166,7 @@ flutter_native_splash:
   # 640 pixels in diameter.
   # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
   # 768 pixels in diameter.
-  image: assets/images/itenssplash.png
+  image: assets/images/icon.jpeg
 
   # Splash screen background color.
   #color: "#42a5f5"
@@ -256,3 +261,4 @@ flutter_launcher_icons:
   ios: true
   image_path: "assets/images/icon.jpeg"
   min_sdk_android: 21 # android min sdk min:16, default 21
+  

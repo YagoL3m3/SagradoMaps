@@ -29,7 +29,7 @@ class _BlockState extends State<Block> {
                 fontFamily: 'Inter',
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFFEAD196),
+                color: Colors.white,
               ),
             ),
           ],

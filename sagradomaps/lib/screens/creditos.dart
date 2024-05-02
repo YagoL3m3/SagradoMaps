@@ -29,7 +29,7 @@ class _BlocoScreenState extends State<CreditosScreen> {
             padding: const EdgeInsets.all(12.0),
             child: Container(
               decoration: BoxDecoration(
-                  color: const Color(0xFFEAD196),
+                  color: Colors.black54,
                   borderRadius: BorderRadius.circular(12)),
               child: Column(
                 children:  [
@@ -39,6 +39,7 @@ class _BlocoScreenState extends State<CreditosScreen> {
                     style: TextStyle(
                       fontSize: 20,
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(''),
@@ -46,30 +47,35 @@ class _BlocoScreenState extends State<CreditosScreen> {
                     'Bruno Bomfim Lima',
                     style: TextStyle(
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(
                     'Guilherme Tamelini Bertozo',
                     style: TextStyle(
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(
                     'Pedro Lucas Franco',
                     style: TextStyle(
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(
                     'Pedro Marques Correa Domingues',
                     style: TextStyle(
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(
                     'Yago da Silva Leme',
                     style: TextStyle(
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(''),
@@ -78,6 +84,7 @@ class _BlocoScreenState extends State<CreditosScreen> {
                     style: TextStyle(
                       fontSize: 20,
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(''),
@@ -85,6 +92,7 @@ class _BlocoScreenState extends State<CreditosScreen> {
                     'Elvio Silva',
                     style: TextStyle(
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   const Text(''),
@@ -93,6 +101,7 @@ class _BlocoScreenState extends State<CreditosScreen> {
                     style: TextStyle(
                       fontSize: 20,
                       fontFamily: 'Inter',
+                      color: Colors.white,
                     ),
                   ),
                   SizedBox(

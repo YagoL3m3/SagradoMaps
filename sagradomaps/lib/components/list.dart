@@ -1,6 +1,8 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:sagradomaps/components/block.dart';
 import 'package:sagradomaps/components/location.dart';
+import 'package:sagradomaps/models/bloco_class.dart';
 
 class ListaBloco extends StatefulWidget {
   final String letraBloco;
@@ -14,12 +16,14 @@ class ListaBloco extends StatefulWidget {
 }
 
 class _ListaBlocoState extends State<ListaBloco> {
+  List<Blocos> blocos = [];
+  FirebaseFirestore dataBase = FirebaseFirestore.instance;
+  
   @override
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width * 0.12,
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.white),
         borderRadius: BorderRadius.circular(50),
         color: Colors.red,
       ),
@@ -33,7 +37,7 @@ class _ListaBlocoState extends State<ListaBloco> {
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(13.0),
                         topRight: Radius.circular(13.0)),
-                    color: Color(0xFFEAD196),
+                    color: Color.fromARGB(252, 227, 193, 146)
                   ),
                   child: SingleChildScrollView(
                     child: Column(
@@ -146,11 +150,11 @@ class _ListaBlocoState extends State<ListaBloco> {
             Location('Design de Moda  J-301',
                 'Laboratório de criação\nem vestuário e acessórios'),
             Location('Gastronomia  J-002', 'Laboratório de gastronomia'),
-            Location('Jornalismo', 'Núcleo de produção multimídia'),
+            Location('Jornalismo', 'Núcleo de produção\n multimídia'),
             Location('Letras - Português e Inglês',
                 'Hall dos auditórios João\nPaulo e Madre Cléia'),
             Location(
-                'Publicidade e Propaganda', 'Núcleo de produção multimídia'),
+                'Publicidade e Propaganda', 'Núcleo de produção\n multimídia'),
             Location('Relações Internacionais', 'Népri'),
           ],
         );
@@ -209,4 +213,5 @@ class _ListaBlocoState extends State<ListaBloco> {
         );
     }
   }
+  
 }
